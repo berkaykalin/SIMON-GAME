@@ -77,10 +77,3 @@ $(document).keydown(function() {
     
 })
 
-$(document).mousemove(function() {
-    if (!start) {
-        nextSequence();
-        start=true;
-    }
-    
-})
